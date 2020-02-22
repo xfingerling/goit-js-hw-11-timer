@@ -1,0 +1,33 @@
+.timer {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: rgb(94, 94, 94);
+  font-family: sans-serif;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.field {
+  display: inline-block;
+}
+
+.value {
+  width: 65px;
+  height: 65px;
+  border-radius: 5px;
+  background: rgb(54, 54, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.label {
+  display: block;
+  padding: 2px;
+  font-size: 16px;
+}
